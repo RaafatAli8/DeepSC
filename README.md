@@ -11,7 +11,7 @@ We conducted this study for different scenarios, varying learning rates (1e-4, 1
 
 In the directory ./data/europarl, must save the last checkpoints (related to the last released epoch number) for each scenario, where checkpoints1 refers to the first scenario an so on. These parameters are detailed in the file training scenarios parameters.pdf.
 
-Additionally, there is a directory named bert that must contain the downloaded BERT model used to estimate sentence similarity. Preprocessing of the data is performed using preprocess_text.py.
+Additionally, inside ./data/europarl, there is a directory named bert that should contain the downloaded BERT model used to estimate sentence similarity. Data preprocessing is done using preprocess_text.py, and the results are saved inside ./data/europarl. We also assume that the downloaded dataset must be unzipped in the ./data/europarl directory, where the txt directory from the downloaded dataset must exist within ./data/europarl.
 
 Our results in terms of training and performance measurement are presented in the directory extract-data, along with the appropriate Python codes to display the results.
 
