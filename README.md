@@ -1,7 +1,9 @@
 # DeepSC
 
 
-This code is a modified version of the code available at this link, which is related to the paper "Deep Learning Enabled Semantic Communication Systems" by Huiqiang Xie et al. (arXiv link).
+This code is a modified version of the code available at this link: 
+https://github.com/13274086/DeepSC/tree/master
+which is related to the paper "Deep Learning Enabled Semantic Communication Systems" by Huiqiang Xie et al. (arXiv link).
 
 In this modified code, we reproduce some of the results mentioned in the paper. We calculate Mutual Information (MI) and loss during the training process, as well as BLEU scores for 1, 2, 3, and 4-grams to measure performance versus Signal-to-Noise Ratio (SNR).
 
